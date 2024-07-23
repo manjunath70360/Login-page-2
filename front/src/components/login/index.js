@@ -49,8 +49,8 @@ class LoginForm extends Component {
     const userDetails = { username, password };
 
     const url = this.state.activeTab === 'login'
-      ? 'https://apsona-1.onrender.com/api/users/signin'
-      : 'https://apsona-1.onrender.com/api/users/signup';
+      ? 'https://login-page-2-am7o.onrender.com/api/users/signin'
+      : 'https://login-page-2-am7o.onrender.com/api/users/signup';
 
     const options = {
       method: 'POST',
